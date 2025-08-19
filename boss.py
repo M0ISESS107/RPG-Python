@@ -11,17 +11,17 @@ class boss():
 
     def classes(self):
            
-            if(self.monstro==1):
-                self.vida-10
-                self.ataque+5
-                self.defesa-2
+            if(self._monstro==1):
+                self._vida-10
+                self._ataque+5
+                self._defesa-2
                 nome="Goblin"
                 n_classe="combatente"
-                return nome,n_classe,self.vida,self.ataque,self.defesa
+                return nome,n_classe,self._vida,self._ataque,self._defesa
             else:
             
-                self.vida+10
-                self.defesa+1
+                self._vida+10
+                self._defesa+1
                 nome="Bruxa"
                 n_classe="Feiticeira"
-                return nome,n_classe,self.vida,self.ataque,self.defesa
+                return nome,n_classe,self._vida,self._ataque,self._defesa

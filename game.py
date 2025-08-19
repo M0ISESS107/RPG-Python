@@ -45,6 +45,7 @@ class combate(ficha,inimigo):
               else:
                   print("Mestre -vc Errou!\n")
                   print(f"{inimigo.inimigo_nome} -hahaha.. muito fraco\n")
+                  
            elif(ficha.classe=="Guerreiro"):
               print(f"{ficha.nome}-Sinta o gosto da minha lamina!!\n")
               rolagem=random.randint(1,20)

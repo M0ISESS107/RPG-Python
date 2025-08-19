@@ -10,18 +10,18 @@ class personagem():
 
     def classes(self):
            
-            if(self.classe==1):
-                self.vida-10
-                self.ataque+5
-                self.defesa-2
+            if(self._classe==1):
+                self._vida-10
+                self._ataque+5
+                self._defesa-2
                 n_classe="Mago"
-                return n_classe,self.vida,self.ataque,self.defesa
+                return n_classe,self._vida,self._ataque,self._defesa
             else:
             
-                self.vida+10
-                self.defesa+1
+                self._vida+10
+                self._defesa+1
                 n_classe="Guerreiro"
-                return n_classe,self.vida,self.ataque,self.defesa
+                return n_classe,self._vida,self._ataque,self._defesa
 
 
 
